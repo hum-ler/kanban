@@ -1,0 +1,42 @@
+name: kanban
+description: A really basic, individual, Kanban board.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.12.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  cloud_firestore: ^1.0.7
+  equatable: ^2.0.2
+  firebase_auth: ^1.2.0
+  firebase_core: ^1.2.0
+  flutter_bloc: ^7.0.0
+  flutter_markdown: ^0.6.2
+  google_sign_in: ^5.0.4
+  intl: ^0.17.0
+  json_annotation: ^4.0.1
+  package_info_plus: ^1.0.1
+  replay_bloc: ^0.0.1
+  uuid: ^3.0.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  build_runner: ^2.0.4
+  dhttpd: ^4.0.0
+  json_serializable: ^4.1.3
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/logo.png
+    - assets/images/btn_google_signin_light_normal_web.png
